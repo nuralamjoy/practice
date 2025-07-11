@@ -1,0 +1,34 @@
+@media (max-width: 780px){
+    .src_content{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .search_box{
+        width: 100%;
+    }
+   .menu_bt_curt{
+    width: 100%;
+    align-items: center;
+   }
+   .icon{
+    display: block;
+    margin-left: 40px;
+    font-size: 25px;
+    cursor: pointer;
+   }
+    .nav_features{
+
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        right: -100%;
+        transition: all 0.5s ease-in-out;
+        background-color: #1e1f29e2;
+    }
+   .menu{
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;  
+   }
+}
