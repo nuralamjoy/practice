@@ -13,6 +13,7 @@ a{
 li{
     list-style-type: none;
 }
+/*secrion cintainer*/
 .container{
    width: 90%;
    margin: 0 auto;  
